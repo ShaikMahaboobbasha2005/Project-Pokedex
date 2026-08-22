@@ -1,6 +1,6 @@
 # 🔥 Pokémon Pokédex
 
-A simple and interactive Pokémon search application built using **HTML, CSS, and JavaScript**. Users can search for a Pokémon by its name or Pokédex ID and view its details using data from the PokéAPI.
+A simple and interactive Pokémon search application built with HTML, CSS, and JavaScript. Users can search for a Pokémon by name or Pokédex ID and view its details using data from the PokéAPI.
 
 ## 🚀 Features
 
@@ -36,51 +36,43 @@ Example API endpoint:
 
 https://pokeapi.co/api/v2/pokemon/pikachu
 
-## 🧠 JavaScript Concepts Practiced
-
-This project helped practice:
-
-- DOM Manipulation
-- Event Listeners
-- Async / Await
-- Fetch API
-- Try / Catch / Finally
-- Error Handling
-- Functions
-- Arrays
-- `map()`
-- `forEach()`
-- `join()`
-- Dynamic DOM Element Creation
-
 ## 📂 Project Structure
 
 ```text
-pokemon-pokedex/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-▶️ How to Use
-Clone this repository:
-git clone YOUR_REPOSITORY_URL
-Open the project folder.
-Open index.html in your browser.
-Enter a Pokémon name or Pokédex ID.
+Project-Pokedex/
 
-Examples:
+├── index.html     # Main HTML file (app UI)
+├── style.css      # Styles for the app
+├── script.js      # JavaScript logic (fetching and rendering)
+└── README.md      # Project documentation
+```
 
-pikachu
-charizard
-bulbasaur
-25
-150
+## ▶️ How to Use
 
-You can also click the 🎲 Random Pokémon button to discover a random Pokémon.
+1. Clone this repository:
 
-📸 Preview
+```bash
+git clone https://github.com/ShaikMahaboobbasha2005/Project-Pokedex.git
+```
+
+2. Open the project folder.
+3. Open `index.html` in your browser (double-click or serve with a static file server).
+4. Enter a Pokémon name (e.g., `pikachu`, `charizard`, `bulbasaur`) or a Pokédex ID (e.g., `25`, `150`) and press Search.
+5. Or click the 🎲 "Random Pokémon" button to fetch a random Pokémon.
+
+## 📸 Preview
+
 <!-- Add a screenshot of your project here -->
-📚 What I Learned
 
-While building this project, I learned how to fetch data from an external API and display it dynamically on a webpage. I also practiced handling loading states, API errors, asynchronous JavaScript, and refactoring repeated code into reusable functions.
+## 📚 What I Learned
+
+While building this project I practiced fetching data from an external API and dynamically rendering it in the DOM. I also practiced handling loading states, API errors, asynchronous JavaScript, and working with arrays and DOM APIs.
+
+## 📝 Notes
+
+- Make sure you have an internet connection because the app fetches data from the PokéAPI.
+- If you encounter any issues, open the browser console to see error messages.
+
+---
+
+Made with ❤️ by ShaikMahaboobbasha2005
