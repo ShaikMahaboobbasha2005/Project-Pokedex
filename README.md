@@ -75,4 +75,4 @@ While building this project I practiced fetching data from an external API and d
 
 ---
 
-Made with ❤️ by ShaikMahaboobbasha2005
+Made with ❤️ by Shaik Mahaboob Basha (I ❤️ Pokémon)
