@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="pokedex">
+
+       
+        <div class="pokedex-top">
+
+            <div class="camera">
+                <div class="camera-light"></div>
+            </div>
+
+            <div class="small-light red"></div>
+            <div class="small-light yellow"></div>
+            <div class="small-light green"></div>
+
+        </div>
+
+      
+        <div class="screen-section">
+
+            <div class="screen">
+
+                <div class="screen-header">
+                    <span>POKÉDEX</span>
+                    <span class="status-light"></span>
+                </div>
+
+                <div class="pokemon-display">
+
+                    <img
+                        class="pokemon-img"
+                        src=""
+                        alt="Pokémon"
+                    >
+
+                    <h2 class="pokemon-name"></h2>
+
+                    <p class="pokemon-id"></p>
+
+                </div>
+
+                <p class="message"></p>
+
+            </div>
+
+        </div>
+
+        
+        <div class="controls">
+
+            <form class="search-form">
+
+                <input
+                    type="text"
+                    class="pokemonInput"
+                    placeholder="Name or Pokédex ID"
+                    autocomplete="off"
+                >
+
+                <button class="searchBtn">
+                    SEARCH
+                </button>
+                <button class="randomBtn">
+                    RANDOM POKEMON
+                </button>
+
+            </form>
+
+        </div>
+
+    
+        <div class="info-panel">
+
+            <div class="info-box">
+
+                <span class="label">TYPE</span>
+                <strong class="type">-</strong>
+
+            </div>
+
+            <div class="info-box">
+
+                <span class="label">HEIGHT</span>
+                <strong class="height">-</strong>
+
+            </div>
+
+            <div class="info-box">
+
+                <span class="label">WEIGHT</span>
+                <strong class="weight">-</strong>
+
+            </div>
+
+        </div>
+
+        <div class="abilities">
+
+            <h3>ABILITIES</h3>
+
+            <ul class="ability-list"></ul>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
